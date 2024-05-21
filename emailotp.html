@@ -17,9 +17,9 @@
 <body>
     <div class="form">
         <h1>Authentication Check</h1>
-        <input type="email" id="email_id" placeholder="Enter Email" required> 
+        <input type="email" id="email_id" placeholder="Enter Email" onchange="saveInputValue('email_id')" required> 
 		<div>
-			<input class="verify" type="text" id="Full Name" placeholder="Enter Name" required> 
+			<input class="verify" type="text"  id="full_name" placeholder="Enter Name" onchange="saveInputValue('full_name')" required> 
         	<button class="btn" onclick="sendOTP()">Send Code</button> 
 		</div>
 		
