@@ -12,7 +12,7 @@ function saveInputValue(id) {
 }
 
 function sendOTP() {
-    const [inputValue, setInputValue] = useState('');
+    //const [inputValue, setInputValue] = useState('');
 
     let otp_val = Math.floor(1000 + Math.random() * 9000);
     var params = {
